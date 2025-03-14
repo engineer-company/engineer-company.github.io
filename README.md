@@ -1,9 +1,9 @@
 # www
 
 ```bash
-git clone git@github.com:engineer-company/www.git
+git clone git@github.com:engineer-company/engineer-company.git
 
-cd ./www
+cd ./engineer-company
 
 echo "Hello World" > index.html
 
