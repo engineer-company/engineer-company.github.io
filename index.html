@@ -180,7 +180,6 @@
         font-family: 'Lucida Console', 'Courier New', monospace;
         font-size: 0.9em;
         font-weight: normal;
-        letter-spacing: 0;
         margin: 0 0.25em;
         padding: 0.25em 0.5em;
         text-indent: 0;
@@ -393,7 +392,7 @@
         font-family: 'Ubuntu', sans-serif;
         font-size: 4em;
         line-height: 0.75;
-        font-weight: 700;
+        font-weight: 900;
         text-shadow: 0rem 0.188rem 0.125rem rgba(0, 0, 0, 0.471);
     }
 
@@ -428,7 +427,6 @@
     #text03 {
         color: #FFFFFF;
         font-family: 'Ubuntu', sans-serif;
-        letter-spacing: -0.025rem;
         width: 100%;
         font-size: 1.125em;
         line-height: 1.375;
@@ -466,7 +464,6 @@
     #text01 {
         color: #FFFFFF;
         font-family: 'Ubuntu', sans-serif;
-        letter-spacing: -0.025rem;
         width: 100%;
         font-size: 0.875em;
         line-height: 1.375;
@@ -527,7 +524,6 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: var(--flex-alignment);
-        letter-spacing: 0;
         padding: 0;
     }
 
@@ -618,7 +614,6 @@
         display: inline-block;
         font-family: Arial, sans-serif;
         font-size: 12px;
-        letter-spacing: 0;
         line-height: 1;
         position: relative;
         text-decoration: none;
@@ -694,11 +689,11 @@
         border-bottom-right-radius: inherit;
     }
 
-    @media (max-width: 1920px) {
+/*    @media (max-width: 1920px) {
         #main > .inner {
             --width: 49rem;
         }
-    }
+    }*/
 
     @media (max-width: 1680px) {
         html {
@@ -706,7 +701,7 @@
         }
     }
 
-    @media (max-width: 1280px) {
+/*    @media (max-width: 1280px) {
         html {
             font-size: 13pt;
         }
@@ -714,21 +709,21 @@
         #main > .inner {
             --width: 49rem;
         }
-    }
+    }*/
 
-    @media (max-width: 1024px) {
+/*    @media (max-width: 1024px) {
         #main > .inner {
             --width: 49rem;
         }
-    }
+    }*/
 
-    @media (max-width: 980px) {
+/*    @media (max-width: 980px) {
         html {
             font-size: 11pt;
         }
-    }
+    }*/
 
-    @media (max-width: 736px) {
+/*    @media (max-width: 736px) {
         html {
             font-size: 10pt;
         }
@@ -753,21 +748,17 @@
         }
 
         #text02 {
-            letter-spacing: 0rem;
             width: 100%;
-            font-size: 3.25em;
             line-height: 0.75;
         }
 
         #text03 {
-            letter-spacing: -0.021875rem;
             width: 100%;
             font-size: 1.125em;
             line-height: 1.375;
         }
 
         #text01 {
-            letter-spacing: -0.021875rem;
             width: 100%;
             font-size: 0.875em;
             line-height: 1.375;
@@ -813,7 +804,6 @@
         }
 
         #text02 {
-            font-size: 3.25em;
         }
 
         #text03 {
@@ -827,7 +817,15 @@
         #icons01 {
             gap: 0.46875rem;
         }
+    }*/
+
+    @media (max-width: 736px) {
+        #main > .inner {
+            padding-left: 0;
+            padding-right: 0;
+        }
     }
+
     </style>
     <noscript>
         <style>
@@ -867,7 +865,7 @@
     <div id="wrapper">
         <div id="main">
             <div class="inner">
-                <h2 id="text02">Engineer ApS</h2>
+                <h2 id="text02">Engineer</h2>
                 <h1 id="text03">Software Development &amp; IT Consulting Services</h1>
                 <hr id="divider01">
                 <ul id="icons01" class="icons">
@@ -900,7 +898,7 @@
                     </li>
                 </ul>
                 <p id="text01">
-                    <a href="tel:+4550106184" title="start a phone call">+45 50 10 61 84</a> • <a href="https://maps.apple.com/?address=Copenhagen,%20Denmark&auid=14740132918557855751&ll=55.662352,12.615932&lsp=6489&q=Copenhagen&t=m" title="map will open in a new tab/window">Copenhagen, Denmark</a>
+                    <a href="tel:+4550106184" title="start a phone call" data-rel="external">+45 50 10 61 84</a> • <a href="https://maps.apple.com/?address=Copenhagen,%20Denmark&auid=14740132918557855751&ll=55.662352,12.615932&lsp=6489&q=Copenhagen&t=m" title="map will open in a new tab/window">Copenhagen, Denmark</a>
                 </p>
                 <p id="text01">
                 Copyright © 2025 Engineer ApS — All rights reserved.
