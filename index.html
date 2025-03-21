@@ -10,21 +10,20 @@
     <meta property="og:title" content="Engineer"/>
     <meta property="og:type" content="website"/>
     <meta property="og:description" content="Software Development"/>
-    <meta property="og:image" content="https://engineer-company.github.io/assets/images/card.jpg?v=de508026"/>
+    <meta property="og:image" content="assets/images/card.jpg?v=de508026"/>
     <meta property="og:image:type" content="image/jpeg"/>
     <meta property="og:image:width" content="1280"/>
     <meta property="og:image:height" content="800"/>
     <meta property="og:url" content="https://engineer-company.github.io"/>
     <meta property="twitter:card" content="summary_large_image"/>
-    <link rel="canonical" href="https://engineer-company.github.io"/>
-    <!-- <link href="https://fonts.googleapis.com/css2?display=swap&family=Ubuntu:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700" rel="stylesheet" type="text/css"/> -->
-      <!-- <link href="https://fonts.googleapis.com/css2?display=swap&family=Ubuntu:wght@300;500;700" rel="stylesheet" type="text/css"/> -->
+    <link rel="canonical" href="https://engineer.company"/>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./favicon.ico"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/>
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png"/>
+
     <link rel="manifest" href="site.webmanifest"/>
     <meta name="msapplication-config" content="browserconfig.xml"/>
     <meta name="theme-color" content="#ffffff"/>
@@ -39,16 +38,6 @@
         vertical-align: baseline;
     }
 
-
-/* latin-ext */
-/*@font-face {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url(assets/fonts/4iCv6KVjbNBYlgoC1CzjvmyNPYZvg7UI.woff2) format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}*/
 /* latin */
 @font-face {
   font-family: 'Ubuntu';
@@ -59,15 +48,6 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-/* latin-ext */
-/*@font-face {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(assets/fonts/4iCv6KVjbNBYlgoCjC3jvmyNPYZvg7UI.woff2) format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}*/
 /* latin */
 @font-face {
   font-family: 'Ubuntu';
@@ -78,15 +58,6 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-/* latin-ext */
-/*@font-face {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(assets/fonts/4iCv6KVjbNBYlgoCxCvjvmyNPYZvg7UI.woff2) format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}*/
 /* latin */
 @font-face {
   font-family: 'Ubuntu';
@@ -109,7 +80,7 @@
         -webkit-text-size-adjust:none;
         line-height: 1.0;
         min-height: var(--viewport-height);
-/*        min-width: 320px;*/
+        min-width: 240px;
         overflow-x: hidden;
         word-wrap: break-word;
 
@@ -170,7 +141,7 @@
         transform: scale(1);
         width: 100vw;
         z-index: 0;
-        background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20width%3D%22640%22%20height%3D%22480%22%20viewBox%3D%220%200%20640%20480%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cstyle%20type%3D%22text%2Fcss%22%3E%20rect%20%7B%20opacity%3A%200.5%3B%20%7D%20polygon%20%7B%20opacity%3A%200.75%3B%20%7D%20%3C%2Fstyle%3E%20%3Cg%20id%3D%22bg%22%3E%20%3ClinearGradient%20id%3D%22bggrad%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%220%22%20y1%3D%22239.5937%22%20x2%3D%22640%22%20y2%3D%22239.5937%22%20gradientTransform%3D%22matrix%281%200%200%20-1%200%20479.5%29%22%3E%20%3Cstop%20offset%3D%220%22%20style%3D%22stop-color%3Atransparent%22%2F%3E%20%3Cstop%20offset%3D%220.3743%22%20style%3D%22stop-color%3Argba(255,255,255,0.071)%22%2F%3E%20%3Cstop%20offset%3D%220.7682%22%20style%3D%22stop-color%3Atransparent%22%2F%3E%20%3Cstop%20offset%3D%221%22%20style%3D%22stop-color%3Argba(255,255,255,0.071)%22%2F%3E%20%3C%2FlinearGradient%3E%20%3Crect%20style%3D%22fill%3Aurl%28%23bggrad%29%3B%22%20width%3D%22640%22%20height%3D%22479.8%22%20%2F%3E%20%3C%2Fg%3E%20%3Cg%20id%3D%22l1%22%3E%20%3ClinearGradient%20id%3D%22l1grad%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22180.3663%22%20y1%3D%22333.5278%22%20x2%3D%2272.0669%22%20y2%3D%22521.1078%22%20gradientTransform%3D%22matrix%281%200%200%20-1%200%20479.5%29%22%3E%20%3Cstop%20offset%3D%220%22%20style%3D%22stop-color%3Argba(255,255,255,0.071)%22%2F%3E%20%3Cstop%20offset%3D%221%22%20style%3D%22stop-color%3Atransparent%22%2F%3E%20%3C%2FlinearGradient%3E%20%3Cpolygon%20style%3D%22fill%3Aurl%28%23l1grad%29%3B%22%20points%3D%220%2C69%2092.3%2C196.8%20232%2C0%200%2C0%22%2F%3E%20%3C%2Fg%3E%20%3Cg%20id%3D%22l2%22%3E%20%3ClinearGradient%20id%3D%22l2grad%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%220%22%20y1%3D%22251.589%22%20x2%3D%22349.5438%22%20y2%3D%22251.589%22%20gradientTransform%3D%22matrix%281%200%200%20-1%200%20479.5%29%22%3E%20%3Cstop%20offset%3D%220%22%20style%3D%22stop-color%3Argba(255,255,255,0.071)%22%2F%3E%20%3Cstop%20offset%3D%220.8596%22%20style%3D%22stop-color%3Atransparent%22%2F%3E%20%3C%2FlinearGradient%3E%20%3Cpolygon%20style%3D%22fill%3Aurl%28%23l2grad%29%3B%22%20points%3D%2292.3%2C196.8%200%2C170.9%200%2C284.9%22%2F%3E%20%3C%2Fg%3E%20%3Cg%20id%3D%22l3%22%3E%20%3ClinearGradient%20id%3D%22l3grad%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22307.3333%22%20y1%3D%22161.2493%22%20x2%3D%22307.3333%22%20y2%3D%22479.5%22%20gradientTransform%3D%22matrix%281%200%200%20-1%200%20479.5%29%22%3E%20%3Cstop%20offset%3D%220%22%20style%3D%22stop-color%3Argba(255,255,255,0.071)%22%2F%3E%20%3Cstop%20offset%3D%221%22%20style%3D%22stop-color%3Atransparent%22%2F%3E%20%3C%2FlinearGradient%3E%20%3Cpolygon%20style%3D%22fill%3Aurl%28%23l3grad%29%3B%22%20points%3D%2292.7%2C196.4%20514.7%2C0%20522%2C0%20328.7%2C318.3%22%2F%3E%20%3C%2Fg%3E%20%3Cg%20id%3D%22l4%22%3E%20%3ClinearGradient%20id%3D%22l4grad%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22540.3333%22%20y1%3D%22470.1287%22%20x2%3D%22640%22%20y2%3D%22470.1287%22%20gradientTransform%3D%22matrix%281%200%200%20-1%200%20479.5%29%22%3E%20%3Cstop%20offset%3D%220%22%20style%3D%22stop-color%3A%23808080%22%2F%3E%20%3Cstop%20offset%3D%220.8596%22%20style%3D%22stop-color%3Atransparent%22%2F%3E%20%3C%2FlinearGradient%3E%20%3Cpolygon%20style%3D%22fill%3Aurl%28%23l4grad%29%3B%22%20points%3D%22540.3%2C0%20640%2C18.7%20640%2C0%22%2F%3E%20%3C%2Fg%3E%20%3Cg%20id%3D%22l5%22%3E%20%3ClinearGradient%20id%3D%22l5grad%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22327.3333%22%20y1%3D%22142.6941%22%20x2%3D%22640%22%20y2%3D%22142.6941%22%20gradientTransform%3D%22matrix%281%200%200%20-1%200%20479.5%29%22%3E%20%3Cstop%20offset%3D%220%22%20style%3D%22stop-color%3Argba(255,255,255,0.071)%22%2F%3E%20%3Cstop%20offset%3D%220.8596%22%20style%3D%22stop-color%3Atransparent%22%2F%3E%20%3C%2FlinearGradient%3E%20%3Cpolygon%20style%3D%22fill%3Aurl%28%23l5grad%29%3B%22%20points%3D%22327.3%2C317.1%20571.3%2C235.4%20640%2C276.3%20640%2C438.2%22%2F%3E%20%3C%2Fg%3E%20%3Cg%20id%3D%22l6%22%3E%20%3ClinearGradient%20id%3D%22l6grad%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22291.9083%22%20y1%3D%2222.7335%22%20x2%3D%22129.2015%22%20y2%3D%22304.55%22%20gradientTransform%3D%22matrix%281%200%200%20-1%200%20479.5%29%22%3E%20%3Cstop%20offset%3D%220%22%20style%3D%22stop-color%3Argba(255,255,255,0.071)%22%2F%3E%20%3Cstop%20offset%3D%221%22%20style%3D%22stop-color%3Atransparent%22%2F%3E%20%3C%2FlinearGradient%3E%20%3Cpolygon%20style%3D%22fill%3Aurl%28%23l6grad%29%3B%22%20points%3D%2292.3%2C196.2%20189.9%2C480%20251.7%2C480%20327.5%2C318.4%22%2F%3E%20%3C%2Fg%3E%3C%2Fsvg%3E'), linear-gradient(360deg, rgba(0, 0, 0, 0.631) 0%, rgba(0, 0, 0, 0.169) 100%)/*, url('assets/images/bg.jpg?v=de508026')*/;
+        background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20width%3D%22640%22%20height%3D%22480%22%20viewBox%3D%220%200%20640%20480%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cstyle%20type%3D%22text%2Fcss%22%3E%20rect%20%7B%20opacity%3A%200.5%3B%20%7D%20polygon%20%7B%20opacity%3A%200.75%3B%20%7D%20%3C%2Fstyle%3E%20%3Cg%20id%3D%22bg%22%3E%20%3ClinearGradient%20id%3D%22bggrad%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%220%22%20y1%3D%22239.5937%22%20x2%3D%22640%22%20y2%3D%22239.5937%22%20gradientTransform%3D%22matrix%281%200%200%20-1%200%20479.5%29%22%3E%20%3Cstop%20offset%3D%220%22%20style%3D%22stop-color%3Atransparent%22%2F%3E%20%3Cstop%20offset%3D%220.3743%22%20style%3D%22stop-color%3Argba(255,255,255,0.071)%22%2F%3E%20%3Cstop%20offset%3D%220.7682%22%20style%3D%22stop-color%3Atransparent%22%2F%3E%20%3Cstop%20offset%3D%221%22%20style%3D%22stop-color%3Argba(255,255,255,0.071)%22%2F%3E%20%3C%2FlinearGradient%3E%20%3Crect%20style%3D%22fill%3Aurl%28%23bggrad%29%3B%22%20width%3D%22640%22%20height%3D%22479.8%22%20%2F%3E%20%3C%2Fg%3E%20%3Cg%20id%3D%22l1%22%3E%20%3ClinearGradient%20id%3D%22l1grad%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22180.3663%22%20y1%3D%22333.5278%22%20x2%3D%2272.0669%22%20y2%3D%22521.1078%22%20gradientTransform%3D%22matrix%281%200%200%20-1%200%20479.5%29%22%3E%20%3Cstop%20offset%3D%220%22%20style%3D%22stop-color%3Argba(255,255,255,0.071)%22%2F%3E%20%3Cstop%20offset%3D%221%22%20style%3D%22stop-color%3Atransparent%22%2F%3E%20%3C%2FlinearGradient%3E%20%3Cpolygon%20style%3D%22fill%3Aurl%28%23l1grad%29%3B%22%20points%3D%220%2C69%2092.3%2C196.8%20232%2C0%200%2C0%22%2F%3E%20%3C%2Fg%3E%20%3Cg%20id%3D%22l2%22%3E%20%3ClinearGradient%20id%3D%22l2grad%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%220%22%20y1%3D%22251.589%22%20x2%3D%22349.5438%22%20y2%3D%22251.589%22%20gradientTransform%3D%22matrix%281%200%200%20-1%200%20479.5%29%22%3E%20%3Cstop%20offset%3D%220%22%20style%3D%22stop-color%3Argba(255,255,255,0.071)%22%2F%3E%20%3Cstop%20offset%3D%220.8596%22%20style%3D%22stop-color%3Atransparent%22%2F%3E%20%3C%2FlinearGradient%3E%20%3Cpolygon%20style%3D%22fill%3Aurl%28%23l2grad%29%3B%22%20points%3D%2292.3%2C196.8%200%2C170.9%200%2C284.9%22%2F%3E%20%3C%2Fg%3E%20%3Cg%20id%3D%22l3%22%3E%20%3ClinearGradient%20id%3D%22l3grad%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22307.3333%22%20y1%3D%22161.2493%22%20x2%3D%22307.3333%22%20y2%3D%22479.5%22%20gradientTransform%3D%22matrix%281%200%200%20-1%200%20479.5%29%22%3E%20%3Cstop%20offset%3D%220%22%20style%3D%22stop-color%3Argba(255,255,255,0.071)%22%2F%3E%20%3Cstop%20offset%3D%221%22%20style%3D%22stop-color%3Atransparent%22%2F%3E%20%3C%2FlinearGradient%3E%20%3Cpolygon%20style%3D%22fill%3Aurl%28%23l3grad%29%3B%22%20points%3D%2292.7%2C196.4%20514.7%2C0%20522%2C0%20328.7%2C318.3%22%2F%3E%20%3C%2Fg%3E%20%3Cg%20id%3D%22l4%22%3E%20%3ClinearGradient%20id%3D%22l4grad%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22540.3333%22%20y1%3D%22470.1287%22%20x2%3D%22640%22%20y2%3D%22470.1287%22%20gradientTransform%3D%22matrix%281%200%200%20-1%200%20479.5%29%22%3E%20%3Cstop%20offset%3D%220%22%20style%3D%22stop-color%3A%23808080%22%2F%3E%20%3Cstop%20offset%3D%220.8596%22%20style%3D%22stop-color%3Atransparent%22%2F%3E%20%3C%2FlinearGradient%3E%20%3Cpolygon%20style%3D%22fill%3Aurl%28%23l4grad%29%3B%22%20points%3D%22540.3%2C0%20640%2C18.7%20640%2C0%22%2F%3E%20%3C%2Fg%3E%20%3Cg%20id%3D%22l5%22%3E%20%3ClinearGradient%20id%3D%22l5grad%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22327.3333%22%20y1%3D%22142.6941%22%20x2%3D%22640%22%20y2%3D%22142.6941%22%20gradientTransform%3D%22matrix%281%200%200%20-1%200%20479.5%29%22%3E%20%3Cstop%20offset%3D%220%22%20style%3D%22stop-color%3Argba(255,255,255,0.071)%22%2F%3E%20%3Cstop%20offset%3D%220.8596%22%20style%3D%22stop-color%3Atransparent%22%2F%3E%20%3C%2FlinearGradient%3E%20%3Cpolygon%20style%3D%22fill%3Aurl%28%23l5grad%29%3B%22%20points%3D%22327.3%2C317.1%20571.3%2C235.4%20640%2C276.3%20640%2C438.2%22%2F%3E%20%3C%2Fg%3E%20%3Cg%20id%3D%22l6%22%3E%20%3ClinearGradient%20id%3D%22l6grad%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22291.9083%22%20y1%3D%2222.7335%22%20x2%3D%22129.2015%22%20y2%3D%22304.55%22%20gradientTransform%3D%22matrix%281%200%200%20-1%200%20479.5%29%22%3E%20%3Cstop%20offset%3D%220%22%20style%3D%22stop-color%3Argba(255,255,255,0.071)%22%2F%3E%20%3Cstop%20offset%3D%221%22%20style%3D%22stop-color%3Atransparent%22%2F%3E%20%3C%2FlinearGradient%3E%20%3Cpolygon%20style%3D%22fill%3Aurl%28%23l6grad%29%3B%22%20points%3D%2292.3%2C196.2%20189.9%2C480%20251.7%2C480%20327.5%2C318.4%22%2F%3E%20%3C%2Fg%3E%3C%2Fsvg%3E'), linear-gradient(360deg, rgba(0, 0, 0, 0.631) 0%, rgba(0, 0, 0, 0.169) 100%), url('assets/images/bg.jpg?v=de508026');
         background-size: cover, cover, cover;
         background-position: center, 0% 0%, center;
         background-repeat: no-repeat, repeat, no-repeat;
@@ -748,135 +719,11 @@
         border-bottom-right-radius: inherit;
     }
 
-/*    @media (max-width: 1920px) {
-        #main > .inner {
-            --width: 49rem;
-        }
-    }*/
-
     @media (max-width: 1680px) {
         html {
             font-size: 13pt;
         }
     }
-
-/*    @media (max-width: 1280px) {
-        html {
-            font-size: 13pt;
-        }
-
-        #main > .inner {
-            --width: 49rem;
-        }
-    }*/
-
-/*    @media (max-width: 1024px) {
-        #main > .inner {
-            --width: 49rem;
-        }
-    }*/
-
-/*    @media (max-width: 980px) {
-        html {
-            font-size: 11pt;
-        }
-    }*/
-
-/*    @media (max-width: 736px) {
-        html {
-            font-size: 10pt;
-        }
-
-        #main {
-            --alignment: center;
-            --flex-alignment: center;
-            --indent-left: 1;
-            --indent-right: 1;
-            --margin-left: auto;
-            --margin-right: auto;
-        }
-
-        #wrapper {
-            padding: 0 0rem 0 0rem;
-        }
-
-        #main > .inner {
-            --padding-horizontal: 2rem;
-            --padding-vertical: 3.5rem;
-            --spacing: 1.625rem;
-        }
-
-        #text02 {
-            width: 100%;
-            line-height: 0.75;
-        }
-
-        #text03 {
-            width: 100%;
-            font-size: 1.125em;
-            line-height: 1.375;
-        }
-
-        #text01 {
-            width: 100%;
-            font-size: 0.875em;
-            line-height: 1.375;
-        }
-
-        #divider01:not(:first-child) {
-            margin-top: 2rem !important;
-        }
-
-        #divider01:not(:last-child) {
-            margin-bottom: 2rem !important;
-        }
-
-        #divider01:before {
-            width: 100rem;
-        }
-
-        #icons01 {
-            font-size: 1.625em;
-            gap: 0.625rem;
-        }
-    }
-
-    @media (max-width: 480px) {
-        #wrapper {
-            padding: 0 0rem 0 0rem;
-        }
-
-        #main > .inner {
-            --spacing: 1.421875rem;
-        }
-    }
-
-    @media (max-width: 360px) {
-        #wrapper {
-            padding: 0 0rem 0 0rem;
-        }
-
-        #main > .inner {
-            --padding-horizontal: 1.5rem;
-            --padding-vertical: 2.625rem;
-            --spacing: 1.21875rem;
-        }
-
-        #text02 {
-        }
-
-        #text03 {
-            font-size: 1.125em;
-        }
-
-        #text01 {
-            font-size: 0.875em;
-        }
-
-        #icons01 {
-            gap: 0.46875rem;
-        }
-    }*/
 
     @media (max-width: 736px) {
         #main > .inner {
