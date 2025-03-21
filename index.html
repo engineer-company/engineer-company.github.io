@@ -191,10 +191,11 @@
     }
 
     spoiler-text {
-        -webkit-text-stroke: 0;
+/*        The property name may be misspelled, vendor specific, or a new CSS property from a draft specification.*/
+/*        -webkit-text-stroke: 0; */
+/*        text-stroke: 0;*/
         background-color: rgba(32, 32, 32, 0.75);
         text-shadow: none;
-        text-stroke: 0;
         color: transparent;
         cursor: pointer;
         transition: color 0.1s ease-in-out;
@@ -871,7 +872,7 @@
                 <hr id="divider01">
                 <ul id="icons01" class="icons">
                     <li>
-                        <a class="n01" href="https://github.com/engineer-company" target="_blank" role="button">
+                        <a class="n01" href="https://github.com/engineer-company" target="_blank" role="button" title="opens in a new tab/window" aria-describedby="opens in a new tab/window">
                             <svg aria-labelledby="icons01-icon-1-title">
                                 <title id="icons01-icon-1-title">GitHub</title>
                                 <use xlink:href="#icon-8c4b37645de3c276d895d87df51ba614"></use>
@@ -880,7 +881,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="n02" href="https://www.linkedin.com/company/engineer-aps" target="_blank" role="button">
+                        <a class="n02" href="https://www.linkedin.com/company/engineer-aps" target="_blank" role="button" title="opens in a new tab/window" aria-describedby="opens in a new tab/window">
                             <svg aria-labelledby="icons01-icon-2-title">
                                 <title id="icons01-icon-2-title">LinkedIn</title>
                                 <use xlink:href="#icon-bf393d6ea48a4e69e1ed58a3563b94a5"></use>
@@ -889,7 +890,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="n03" href="email-protection#54233138373b393114313a333d3a3131267a373b3924353a2d" role="button">
+                        <a class="n03" href="#54233138373b393114313a333d3a3131267a373b3924353a2d" role="button" title="opens in your e-mail client" aria-describedby="opens in your e-mail client">
                             <svg aria-labelledby="icons01-icon-3-title">
                                 <title id="icons01-icon-3-title">Email</title>
                                 <use xlink:href="#icon-c3c8e1063e3b7f84f6b54712741de139"></use>
@@ -899,7 +900,7 @@
                     </li>
                 </ul>
                 <p id="text01">
-                    <a href="https://maps.apple.com/?address=Copenhagen,%20Denmark&auid=14740132918557855751&ll=55.662352,12.615932&lsp=6489&q=Copenhagen&t=m">Copenhagen, Denmark</a>
+                    <a href="https://maps.apple.com/?address=Copenhagen,%20Denmark&auid=14740132918557855751&ll=55.662352,12.615932&lsp=6489&q=Copenhagen&t=m" title="opens in a new tab/window" aria-describedby="opens in a new tab/window">Copenhagen, Denmark</a>
                 </p>
             </div>
         </div>
