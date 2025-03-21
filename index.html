@@ -44,7 +44,20 @@
     }
 
     body {
-        line-height: 1;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 300;
+        color: #FFFFFF;
+        -webkit-text-size-adjust:none;
+        line-height: 1.0;
+        min-height: var(--viewport-height);
+/*        min-width: 320px;*/
+        overflow-x: hidden;
+        word-wrap: break-word;
+
+    }
+
+    small {
+        font-size: 0.8em;
     }
 
     ol, ul {
@@ -63,10 +76,6 @@
     table {
         border-collapse: collapse;
         border-spacing: 0;
-    }
-
-    body {
-        -webkit-text-size-adjust:none
     }
 
     mark {
@@ -88,18 +97,6 @@
 
     *, * :before, * :after {
         box-sizing: border-box;
-    }
-
-    body {
-        line-height: 1.0;
-        min-height: var(--viewport-height);
-        min-width: 320px;
-        overflow-x: hidden;
-        word-wrap: break-word;
-        height: 100%;
-        width: 100%;
-        max-height: 100vh;
-        max-width: 100vw;
     }
 
     body:before {
@@ -221,8 +218,11 @@
 
     a {
         color: inherit;
-        text-decoration: underline;
+/*        text-decoration: underline;*/
         transition: color 0.25s ease;
+        text-decoration-line: underline;
+        text-decoration-color: rgba(255, 255, 255, 0.52);
+        text-decoration-thickness: 1px;
     }
 
     a[onclick]:not([href]) {
@@ -826,6 +826,32 @@
         }
     }
 
+    @media (max-width: 400px) {
+        html {
+            font-size: 11pt;
+        }
+    }
+
+    @media (max-width: 340px) {
+        html {
+            font-size: 8pt;
+        }
+    }
+
+    @media (max-width: 240px) {
+        html {
+            font-size: 6pt;
+        }
+    }
+
+    .nowrap {
+        white-space: nowrap;
+    }
+
+    .dimmed {
+        color: rgba(255, 255, 255, 0.529);
+    }
+
     </style>
     <noscript>
         <style>
@@ -866,7 +892,7 @@
         <div id="main">
             <div class="inner">
                 <h2 id="text02">Engineer</h2>
-                <h1 id="text03">Software Development &amp; IT Consulting Services</h1>
+                <h1 id="text03"><span class="nowrap">Software Development</span> &amp; <span class="nowrap">IT Consulting Services</span></h1>
                 <hr id="divider01">
                 <ul id="icons01" class="icons">
                     <li>
@@ -897,11 +923,13 @@
                         </a>
                     </li>
                 </ul>
-                <p id="text01">
+                <p>
                     <a href="tel:+4550106184" title="start a phone call" data-rel="external">+45 50 10 61 84</a> • <a href="https://maps.apple.com/?address=Copenhagen,%20Denmark&auid=14740132918557855751&ll=55.662352,12.615932&lsp=6489&q=Copenhagen&t=m" title="map will open in a new tab/window">Copenhagen, Denmark</a>
                 </p>
-                <p id="text01">
-                Copyright © 2025 Engineer ApS — All rights reserved.
+                <p class="dimmed">
+                    <small>
+                <span class="nowrap">Copyright &copy; 2025</span> <span class="nowrap">Engineer ApS</span> <span class="nowrap">— All rights reserved.</span>
+            </small>
                 </p>
             </div>
         </div>
