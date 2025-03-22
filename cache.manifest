@@ -4,6 +4,7 @@ CACHE MANIFEST
 CACHE:
 # pages
 index.html
+site.webmanifest
 
 # fonts, images, scripts, etc.
 assets/*
