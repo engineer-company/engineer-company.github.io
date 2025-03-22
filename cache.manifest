@@ -1,0 +1,15 @@
+CACHE MANIFEST
+# v0.1 : 2025-03-22
+ 
+CACHE:
+# pages
+index.html
+
+# fonts, images, scripts, etc.
+assets/*
+ 
+NETWORK:
+
+FALLBACK:
+# if main resource is unavailable, serve offline.html (example)
+# / /offline.html
