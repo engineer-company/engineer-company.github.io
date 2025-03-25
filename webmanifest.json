@@ -2,7 +2,7 @@
   "name": "Engineer",
   "short_name": "Engineer",
   "description": "Software Development & IT Consultancy Services",
-  "start_url": "https://engineer.company",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#ebebeb",
   "theme_color": "#6b0083",
