@@ -22,3 +22,36 @@ convert profile.png -bordercolor white -border 0 \
       \( -clone 0 -resize 64x64 \) \
       -delete 0 -alpha off -colors 256 favicon.ico
 ```
+
+To be able to provide the proper mime-type:
+
+```bash
+base64 -i './assets/fonts/ubuntu_300.woff2'
+base64 -i './assets/fonts/ubuntu_500.woff2'
+base64 -i './assets/fonts/ubuntu_700.woff2'
+```
+
+Failed to load resource: The requested URL was not found on this server.
+file:///favicon.ico
+
+```bash
+base64 -i './favicon.ico'
+```
+
+Check if your files are being compressed:
+
+```bash
+curl -s -H "Accept-Encoding: gzip" -I https://engineer.company/ | grep content-encoding
+```
+
+Start local server
+
+```bash
+python3 -m http.server
+```
+
+IP address of the host machine to acces from Paralleles
+
+```bash
+http://10.211.55.2:8000
+```
