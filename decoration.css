@@ -158,7 +158,19 @@
     :root {
         --viewport-height: 100vh;
         --viewport-width: 100vw;
-        --system-ui: Ubuntu, system-ui, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+        --system-ui: Ubuntu, system-ui, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+ --min-fs: 1;
+  --max-fs: 1.5;
+  --min-vw: 20;
+  --max-vw: 45;
+
+  --min-fs-rem: var(--min-fs) * 1rem;
+  --max-fs-rem: var(--max-fs) * 1rem;
+  --min-vw-rem: var(--min-vw) * 1rem;
+
+  --slope: (var(--max-fs) - var(--min-fs)) * (100vw - var(--min-vw-rem)) / (var(--max-vw) - var(--min-vw));
+
+  
     }
 
 /*
@@ -176,14 +188,19 @@
     body {
         font-family: var(--system-ui);
         font-weight: 300;
-        font-size: 18px;
+/*        font-size: 100%;*/
+/*        font-size: 18px;*/
+        font-size: clamp(var(--min-fs-rem), var(--min-fs-rem) + var(--slope), var(--max-fs-rem));
+/*        --font-size-body: clamp(12px, calc(0.8rem + 0.25vw), 20px);*/
+
         color: #fff;
 /*        line-height: 1.4em;*/
         min-height: var(--viewport-height);
         min-width: var(--viewport-width);
         overflow-x: hidden;
         word-wrap:break-word;
-        background-color:#fff
+        background-color:#fff;
+        text-shadow:0 .0rem .1rem rgba(0, 0, 0, .5)
     }
 
     small {
@@ -265,7 +282,7 @@
     flex-direction: column;
         justify-content: center;
         min-height: var(--viewport-height);
-        padding:0 3rem
+        padding:0 1rem
     }
     
 /*    header {
@@ -300,6 +317,14 @@ header hgroup {
         text-align:center;
     }
     
+header hgroup h1 {
+    font-size: 1em;
+}
+
+article hgroup {
+    width: 100%;
+}
+    
 /*
 header hgroup >* {
     --spacing: 1.6rem;
@@ -308,18 +333,27 @@ header hgroup >* {
 }*/
 
 
+    article ul {
+        padding-inline-start: unset;
+        list-style:inside
+    }
+
     article ul li {
         margin: 0.8em auto
     }
     
     header *,
-    article * {max-width: 800px}
+    article * {max-width: 600px}
 
 
     #logo {
         font-size: 4em;
         font-weight: 700;
-        text-shadow:0 .12rem .08rem rgba(0, 0, 0, .471)
+        text-shadow:0 .12rem .08rem rgba(0, 0, 0, .5)
+    }
+    
+    h1,h2,h3{
+        text-shadow:0 .1rem .1rem rgba(0, 0, 0, .5)
     }
 
     hr {
