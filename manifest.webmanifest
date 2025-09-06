@@ -1,0 +1,264 @@
+{
+  "name": "Engineer",
+  "short_name": "Engineer",
+  "description": "Software Development & IT Consultancy Services",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ebebeb",
+  "theme_color": "#6b0083",
+  "orientation": "any",
+  "scope": "/",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "16x16 32x32 48x48 64x64 96x96 128x128 256x256"
+    },
+    {
+      "src": "favicon.svg",
+      "sizes": "257x257 512x512 1024x1024"
+    },
+    {
+      "src": "assets/webmanifest/icons/any/fabulous-android-icon-any-36x36.png",
+      "sizes": "36x36",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/webmanifest/icons/any/fabulous-android-icon-any-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/webmanifest/icons/any/fabulous-android-icon-any-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/webmanifest/icons/any/fabulous-android-icon-any-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/webmanifest/icons/any/fabulous-android-icon-any-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/webmanifest/icons/any/fabulous-android-icon-any-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/webmanifest/icons/any/fabulous-android-icon-any-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/webmanifest/icons/any/fabulous-android-icon-any-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/webmanifest/icons/any/fabulous-android-icon-any-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/webmanifest/icons/any/fabulous-android-icon-any-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/webmanifest/icons/maskable/fabulous-android-icon-maskable-36x36.png",
+      "sizes": "36x36",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/webmanifest/icons/maskable/fabulous-android-icon-maskable-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/webmanifest/icons/maskable/fabulous-android-icon-maskable-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/webmanifest/icons/maskable/fabulous-android-icon-maskable-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/webmanifest/icons/maskable/fabulous-android-icon-maskable-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/webmanifest/icons/maskable/fabulous-android-icon-maskable-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/webmanifest/icons/maskable/fabulous-android-icon-maskable-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/webmanifest/icons/maskable/fabulous-android-icon-maskable-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/webmanifest/icons/maskable/fabulous-android-icon-maskable-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/webmanifest/icons/maskable/fabulous-android-icon-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/webmanifest/icons/monochrome/fabulous-android-icon-monochrome-36x36.png",
+      "sizes": "36x36",
+      "type": "image/png",
+      "purpose": "monochrome"
+    },
+    {
+      "src": "assets/webmanifest/icons/monochrome/fabulous-android-icon-monochrome-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "monochrome"
+    },
+    {
+      "src": "assets/webmanifest/icons/monochrome/fabulous-android-icon-monochrome-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "monochrome"
+    },
+    {
+      "src": "assets/webmanifest/icons/monochrome/fabulous-android-icon-monochrome-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "monochrome"
+    },
+    {
+      "src": "assets/webmanifest/icons/monochrome/fabulous-android-icon-monochrome-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "monochrome"
+    },
+    {
+      "src": "assets/webmanifest/icons/monochrome/fabulous-android-icon-monochrome-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "monochrome"
+    },
+    {
+      "src": "assets/webmanifest/icons/monochrome/fabulous-android-icon-monochrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "monochrome"
+    },
+    {
+      "src": "assets/webmanifest/icons/monochrome/fabulous-android-icon-monochrome-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "monochrome"
+    },
+    {
+      "src": "assets/webmanifest/icons/monochrome/fabulous-android-icon-monochrome-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "monochrome"
+    },
+    {
+      "src": "assets/webmanifest/icons/monochrome/fabulous-android-icon-monochrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "monochrome"
+    }
+  ],
+  "splash_screens": [
+    {
+      "src": "assets/webmanifest/splash_screens/fabulous-android-splash_screen-1125x2436.png",
+      "sizes": "1125x2436",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/webmanifest/splash_screens/fabulous-android-splash_screen-750x1334.png",
+      "sizes": "750x1334",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/webmanifest/splash_screens/fabulous-android-splash_screen-1242x2208.png",
+      "sizes": "1242x2208",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/webmanifest/splash_screens/fabulous-android-splash_screen-1668x2224.png",
+      "sizes": "1668x2224",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/webmanifest/splash_screens/fabulous-android-splash_screen-2048x2732.png",
+      "sizes": "2048x2732",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/webmanifest/splash_screens/fabulous-android-splash_screen-1536x2048.png",
+      "sizes": "1536x2048",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/webmanifest/splash_screens/fabulous-android-splash_screen-320x426.png",
+      "sizes": "320x426",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/webmanifest/splash_screens/fabulous-android-splash_screen-320x470.png",
+      "sizes": "320x470",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/webmanifest/splash_screens/fabulous-android-splash_screen-480x640.png",
+      "sizes": "480x640",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/webmanifest/splash_screens/fabulous-android-splash_screen-720x960.png",
+      "sizes": "720x960",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/webmanifest/splash_screens/fabulous-android-splash_screen-960x1280.png",
+      "sizes": "960x1280",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/webmanifest/splash_screens/fabulous-android-splash_screen-1280x1920.png",
+      "sizes": "1280x1920",
+      "type": "image/png"
+    }
+  ]
+}

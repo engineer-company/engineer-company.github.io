@@ -56,18 +56,16 @@ sSSSSSSSSSs;%%%,:@@@@a;;   .@@@a;%%sSSSS'           .%%%;SS,
  -------------------------------------
 */
 
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 
-<urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
->
-    <url>
-        <loc>https://engineer.company/</loc>
-        <lastmod>2025-03-21T14:21:15.879Z</lastmod>
-        <changefreq>always</changefreq>
-        <priority>1.00</priority>
-    </url>
-</urlset>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square70x70logo    src="assets/icons/microsoft/mstile-70x70.png"/>
+            <square150x150logo  src="assets/icons/microsoft/mstile-150x150.png"/>
+            <wide310x150logo    src="assets/icons/microsoft/mstile-310x150.png"/>
+            <square310x310logo  src="assets/icons/microsoft/mstile-310x310.png"/>
+            <TileColor>#ffffff</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>

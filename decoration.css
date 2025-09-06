@@ -1,3 +1,61 @@
+/*
+                                                          .;;,
+                                     .,.               .,;;;;;,
+                                    ;;;;;;;,,        ,;;%%%%%;;
+                                     `;;;%%%%;;,.  ,;;%%;;%%%;;
+                                       `;%%;;%%%;;,;;%%%%%%%;;'
+                                         `;;%%;;%:,;%%%%%;;%%;;,
+                                            `;;%%%,;%%%%%%%%%;;;
+                                               `;:%%%%%%;;%%;;;'
+           ..,,,.                                 .:::::::.
+        .;;;;;;;;;;,.                                  s.
+        `;;;;;;;;;;;;;,                               ,SSSs.
+          `:.:.:.:.:.:.:.                            ,SSSSSSs.
+           .;;;;;;;;;;;;;::,                        ,SSSSSSSSS,
+          ;;;;;;;;;;;;;;;;:::%,                    ,SS%;SSSSSSsS
+         ;;;;;;,:,:::::::;::::%%,                  SS%;SSSSSSsSS
+         ;;;;;,::a@@@@@@a::%%%%%%%,.   ...         SS%;SSSSSSSS'
+         `::::::@@@@@@@@@@@a;%%%%%%%%%'  #;        `SS%;SSSSS'
+  .,sSSSSs;%%,::@@@@@@;;' #`@@a;%%%%%'   ,'          `S%;SS'
+sSSSSSSSSSs;%%%,:@@@@a;;   .@@@a;%%sSSSS'           .%%%;SS,
+`SSSSSSSSSSSs;%%%,:@@@a;;;;@@@;%%sSSSS'        ..,,%%%;SSSSSSs.
+  `SSSSSSSSSSSSs;%%,%%%%%%%%%%%SSSS'     ..,,%;sSSS;%;SSSSSSSSs.
+     `SSSSSSSSSSS%;%;sSSSS;""""   ..,,%sSSSS;;SSSS%%%;SSSSSSSSSS.
+         """""" %%;SSSSSS;;%..,,sSSS;%SSSSS;%;%%%;%%%%;SSSSSS;SSS.
+                `;SSSSS;;%%%%%;SSSS;%%;%;%;sSSS;%%%%%%%;SSSSSS;SSS
+                 ;SSS;;%%%%%%%%;%;%sSSSS%;SSS;%%%%%%%%%;SSSSSS;SSS
+                 `S;;%%%%%%%%%%%%%SSSSS;%%%;%%%%%%%%%%%;SSSSSS;SSS
+                  ;SS;%%%%%%%%%%%%;%;%;%%;%%%%%%%%%%%%;SSSSSS;SSS'
+                  SS;%%%%%%%%%%%%%%%%%%%;%%%%%%%%%%%;SSSSSS;SSS'
+                  SS;%%%%%%%%%%%%%%%%%%;%%%%%%%%%%%;SSSSS;SSS'
+                  SS;%%%%%%%%%%%%%;sSSs;%%%%%%%%;SSSSSS;SSSS
+                  `SS;%%%%%%%%%%%%%%;SS;%%%%%%;SSSSSS;SSSS'
+                   `S;%%%%%%%%%%%%%%%;S;%%%%%;SSSS;SSSSS%
+                    `S;%;%%%%%%%%%%%'   `%%%%;SSS;SSSSSS%.
+                  ,S;%%%%%%%%%%;'      `%%%%%;S   `SSSSs%,.
+                  ,%%%%%%%%%%;%;'         `%;%%%;     `SSSs;%%,.
+               ,%%%%%%;;;%;;%;'           .%%;%%%       `SSSSs;%%.
+            ,%%%%%' .%;%;%;'             ,%%;%%%'         `SSSS;%%
+          ,%%%%'   .%%%%'              ,%%%%%'             `SSs%%'
+        ,%%%%'    .%%%'              ,%%%%'                ,%%%'
+      ,%%%%'     .%%%              ,%%%%'                 ,%%%'
+    ,%%%%'      .%%%'            ,%%%%'                  ,%%%'
+  ,%%%%'        %%%%           ,%%%'                    ,%%%%
+  %%%%'       .:::::         ,%%%'                      %%%%'
+.:::::        :::::'       ,%%%'                       ,%%%%
+:::::'                   ,%%%%'                        %%%%%
+                        %%%%%'                         %%%%%
+                      .::::::                        .::::::
+                      ::::::'                        ::::::'
+
+ -------------------------------------
+
+ This beautiful and wonderful stylesheet
+ is lovingly crafted by hand.
+
+ -------------------------------------
+*/
+
   @font-face {
         font-family: Ubuntu;
         font-style: normal;
@@ -159,7 +217,8 @@
         --viewport-height: 100vh;
         --viewport-width: 100vw;
         --system-ui: Ubuntu, system-ui, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
- --min-fs: 1;
+ 
+  --min-fs: 1;
   --max-fs: 1.5;
   --min-vw: 20;
   --max-vw: 45;
@@ -170,10 +229,9 @@
 
   --slope: (var(--max-fs) - var(--min-fs)) * (100vw - var(--min-vw-rem)) / (var(--max-vw) - var(--min-vw));
 
-  
     }
 
-/*
+
   a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
         margin: 0;
         padding: 0;
@@ -183,24 +241,44 @@
 
     article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
         display:block
-    }*/
+    }
+
+@media (prefers-reduced-motion: reduce) {
+  html * {
+    transition: none;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html * {
+
+/*  transition-property:sliding;
+  transition-duration: 1.4s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;*/
+    
+/*-webkit-transition: all 500ms;
+   -moz-transition: all 500ms;
+     -o-transition: all 500ms;
+        transition: all 500ms;*/
+        
+/*    scroll-behavior: smooth;*/
+  }
+}
 
     body {
         font-family: var(--system-ui);
         font-weight: 300;
-/*        font-size: 100%;*/
-/*        font-size: 18px;*/
         font-size: clamp(var(--min-fs-rem), var(--min-fs-rem) + var(--slope), var(--max-fs-rem));
 /*        --font-size-body: clamp(12px, calc(0.8rem + 0.25vw), 20px);*/
 
         color: #fff;
-/*        line-height: 1.4em;*/
         min-height: var(--viewport-height);
         min-width: var(--viewport-width);
         overflow-x: hidden;
         word-wrap:break-word;
-        background-color:#fff;
-        text-shadow:0 .0rem .1rem rgba(0, 0, 0, .5)
+        background-color:#6a888e;
+        text-shadow:0 .0rem .1rem rgba(0, 0, 0, .5);
     }
 
     small {
@@ -259,9 +337,10 @@
 
     a {
         color: inherit;
-        transition: color .25s ease;
+/*        transition: color .25s ease;*/
         text-decoration-line: underline;
-        text-decoration-color: rgba(255, 255, 255, .52);
+        text-decoration-color: rgba(255, 255, 255, .12);
+        text-decoration-style: solid;
         text-decoration-thickness:1px
     }
     
@@ -294,7 +373,7 @@
         flex-wrap: wrap;
     }*/
 
-    header:before {
+    body:before {
         content: '';
         display: block;
         background-attachment: scroll;
@@ -325,12 +404,12 @@ article hgroup {
     width: 100%;
 }
     
-/*
+
 header hgroup >* {
     --spacing: 1.6rem;
     margin-top: var(--spacing);
     margin-bottom: var(--spacing)
-}*/
+}
 
 
     article ul {
@@ -343,11 +422,13 @@ header hgroup >* {
     }
     
     header *,
-    article * {max-width: 600px}
+    article * {
+    max-width: 900px
+    }
 
 
     #logo {
-        font-size: 4em;
+        font-size: 3.8em;
         font-weight: 700;
         text-shadow:0 .12rem .08rem rgba(0, 0, 0, .5)
     }
@@ -364,7 +445,7 @@ header hgroup >* {
         min-height: 1rem;
         padding: 0;
         position: relative;
-        width:100%
+        width:80%
     }
 
     hr:before {
@@ -426,7 +507,7 @@ header hgroup >* {
         transform:rotate(-30deg)
     }
 
-    @media (max-width: 1680px) {
+/*    @media (max-width: 1680px) {
         html {
             font-size:13pt
         }
@@ -455,7 +536,7 @@ header hgroup >* {
         html {
             font-size:6pt
         }
-    }
+    }*/
 
     .nowrap {
         white-space:nowrap
@@ -465,3 +546,302 @@ header hgroup >* {
         color: rgba(255, 255, 255, .529)
     }
     
+    .tiny {
+        font-size: medium;
+    }
+
+
+/*.arrow {
+  
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  display: inline-block;
+  position: relative;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px 2px 0 0;
+    position: absolute;
+    transform-origin: 50% 50%;
+  }
+
+  &.left::before {
+    transform: rotate(-135deg);
+    margin: -15px 0 0 -10px;
+  }
+  &.up::before {
+    transform: rotate(-45deg);
+    margin: -10px 0 0 -15px;
+  }
+  &.down::before {
+    transform: rotate(135deg);
+    margin: -20px 0 0 -15px;
+  }
+  &.right::before {
+    transform: rotate(45deg);
+    margin: -15px 0 0 -20px;
+  }
+  
+  &::after {
+    content: '';
+    display: block;
+    top: 50%;
+    left: 50%;
+    border-style: solid;
+    border-color: #000;
+    position: absolute;
+    transform-origin: 50% 50%;
+  }
+  
+  &.left::after {
+    width: 40px;
+    height: 0;
+    border-width: 2px 0 0 0;
+    transform: translate(-14px, -1px);
+  }
+  
+  &.up::after {
+    width: 0;
+    height: 40px;
+    border-width: 0 2px 0 0;
+    transform: translate(-1px, -14px);
+  }
+  
+  &.down::after {
+    width: 0;
+    height: 40px;
+    border-width: 0 2px 0 0;
+    transform: translate(-1px, -26px);
+  }
+  
+  &.right::after {
+    width: 40px;
+    height: 0;
+    border-width: 2px 0 0 0;
+    transform: translate(-26px, -1px);
+  }
+  
+  &.circle {
+    background: rgba(233,233,180,0.75);
+    border-radius: 50px;
+  }
+  
+  &.debug {
+    outline: 1px solid darkblue;
+
+    &::before {
+      outline: 1px solid red;
+    }
+  }
+}*/
+
+
+address {
+    font-style:normal;
+}
+
+
+
+.arrow-container {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  transform: translate(-50%, -50%) rotateZ(0deg);
+  position:absolute;
+  bottom:0;
+}
+.arrow-container:hover {
+  cursor: pointer;
+}
+.arrow-container:hover .arrow {
+  top: 50%;
+}
+
+/*
+.arrow-container:hover .arrow:before {
+  transform: translate(-50%, -50%) rotateZ(-30deg);
+}
+.arrow-container:hover .arrow:after {
+  transform: translate(-50%, -50%) rotateZ(30deg);
+}
+*/
+
+.arrow {
+  position: absolute;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+.arrow:before, .arrow:after {
+  transition: all 0.4s ease;
+  content: "";
+  display: block;
+  position: absolute;
+  transform-origin: bottom right;
+  background: #fff;
+  width: 4px;
+  height: 50px;
+  border-radius: 10px;
+  transform: translate(-50%, -50%) rotateZ(-45deg);
+}
+.arrow:after {
+  transform-origin: bottom left;
+  transform: translate(-50%, -50%) rotateZ(45deg);
+}
+.arrow:nth-child(1) {
+  opacity: 0.3;
+  top: 35%;
+}
+.arrow:nth-child(2) {
+  opacity: 0.6;
+  top: 55%;
+}
+.arrow:nth-child(3) {
+  opacity: 0.9;
+  top: 75%;
+}
+
+body > .soft-top {
+position: fixed;
+right: 0px;
+left: 0px;
+top: 0px;
+height: 256px;
+background: linear-gradient(360deg,
+    rgba(106, 136, 142, 0) 0%,
+    rgba(106, 136, 142, 0.01) 8.1%,
+    rgba(106, 136, 142, 0.047) 15.5%,
+    rgba(106, 136, 142, 0.106) 22.5%,
+    rgba(106, 136, 142, 0.176) 29%,
+    rgba(106, 136, 142, 0.26) 35.3%,
+    rgba(106, 136, 142, 0.353) 41.2%,
+    rgba(106, 136, 142, 0.45) 47.1%,
+    rgba(106, 136, 142, 0.55) 52.9%,
+    rgba(106, 136, 142, 0.647) 58.8%,
+    rgba(106, 136, 142, 0.74) 64.7%,
+    rgba(106, 136, 142, 0.824) 71%,
+    rgba(106, 136, 142, 0.894) 77.5%,
+    rgba(106, 136, 142, 0.953) 84.5%,
+    rgba(106, 136, 142, 0.99) 91.9%,
+    rgb(106, 136, 142) 100%
+    );
+}
+
+body > footer {
+position: fixed;
+right: 0px;
+left: 0px;
+bottom: 0px;
+height: 256px;
+background: linear-gradient(
+    rgba(21, 17, 24, 0) 0%,
+    rgba(21, 17, 24, 0.01) 8.1%,
+    rgba(21, 17, 24, 0.047) 15.5%,
+    rgba(21, 17, 24, 0.106) 22.5%,
+    rgba(21, 17, 24, 0.176) 29%,
+    rgba(21, 17, 24, 0.26) 35.3%,
+    rgba(21, 17, 24, 0.353) 41.2%,
+    rgba(21, 17, 24, 0.45) 47.1%,
+    rgba(21, 17, 24, 0.55) 52.9%,
+    rgba(21, 17, 24, 0.647) 58.8%,
+    rgba(21, 17, 24, 0.74) 64.7%,
+    rgba(21, 17, 24, 0.824) 71%,
+    rgba(21, 17, 24, 0.894) 77.5%,
+    rgba(21, 17, 24, 0.953) 84.5%,
+    rgba(21, 17, 24, 0.99) 91.9%,
+    rgb(21, 17, 24) 100%
+    );
+
+display: flex;
+padding: 0 1rem 2rem 1rem;
+
+align-items: self-end;
+flex-direction: row;
+justify-content: space-between;
+gap: 1rem;
+flex-wrap: wrap;
+align-content: flex-end;
+}
+
+
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
+
+@keyframes tilt-shaking {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(15deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-15deg); }
+  100% { transform: rotate(0deg); }
+}
+
+
+footer address a svg {
+display: inline-flex;
+pointer-events: none;
+position: relative;
+vertical-align: bottom;
+height: 1.1em;
+width: 1.1em;
+margin-right: 0.4em;
+}
+
+.dimmed svg {
+fill: rgba(255, 255, 255, .529);
+}
+
+footer address a:hover svg {
+    animation: tilt-shaking 1.0s ease-in-out;
+    transition: fill .4s ease-in-out;
+    fill: #fff;
+}
+
+footer address a:hover {
+    transition: color .4s ease-in-out;
+    color: #fff;
+}

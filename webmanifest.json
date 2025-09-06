@@ -6,6 +6,9 @@
   "display": "standalone",
   "background_color": "#ebebeb",
   "theme_color": "#6b0083",
+  "orientation": "any",
+  "scope": "/",
+  "lang": "en",
   "icons": [
     {
       "src": "assets/icons/icon-48x48.png",
@@ -159,8 +162,5 @@
       "sizes": "1280x1920",
       "type": "image/png"
     }
-  ],
-  "orientation": "any",
-  "scope": "/",
-  "lang": "en"
+  ]
 }
